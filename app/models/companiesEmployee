@@ -1,0 +1,5 @@
+class CompaniesEmployee < ApplicationRecord
+	belongs_to :company
+	belongs_to :employee
+	# has_and_belongs_to_many :cemployees
+end
